@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="images/fav.png" type="image/x-icon"> 
+	<meta charset="UTF-8">
+	<title>Home- Simple Website</title>
+  <meta name="description" content="Sample website only">
+  <meta name="keywords" content="Attempt,Trial">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+</head>
+<script type="text/javascript" href="js/myJava.js"></script>
+
+<body>
+	<!-- header section -->
+	<p id="top" style="top: 20px;"></p>
+	<div id="logo-wrapper">
+		<div class="Website_Logo">
+			<a href="Landing.html" id="dummy">
+				<h1 class="logo-text">Website Logo</h1>
+			</a>
+		</div>
+	</div>
+
+	<!-- slider section -->
+	<div class="slider">
+		<div class="headline">
+			<div class="headlineText-container">
+			<h1 id="headline-text">キャッチコピーが入りま<span style="letter-spacing:10px;">す。</span></h1>
+			</div>
+			<h4 id="sub-headline">&nbsp;サンプルテキストサンプルテキストサンプルテキストサンプルテキスト<br>&nbsp;サンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+			</h4>
+		</div>
+
+		<!-- navigation arrow -->
+		<div class="nav-arrows">
+			<div id="arrow-left" onclick="previousImage()" class="arrow"><img src="images/arrow-left.png"></div>
+			<div id="arrow-right" onclick="nextImage()" class="arrow" ><img src="images/arrow-right.png"></div>
+		</div>
+
+		<!-- navigation dots -->
+		<div class="dots-wrapper">
+			<ul id="allDots">
+				<li id="first" onclick="goTo(0)"></li>
+				<li id="second" onclick="goTo(1)"></li>
+				<li id="third" onclick="goTo(2)"></li>
+			</ul>
+		</div>
+		<!-- images display -->
+		<div class="images-wrapper">
+			<img src="" name="image_slide" id="mySlides" alt="Slider Images">
+		</div>
+	</div>
+
+	<!-- body section -->
+
+	<div class="container">
+		<div id="inner-container">
+			<div id="items-left">
+				<a href="Landing.html" id="itemsList">
+					<div id="imageCon">
+						<div class="first-col">
+							<img src="images/item-image2.jpg" alt="House with hammer">
+							<img src="images/item-image1.jpg" id="first-image" alt="House Interior" >
+
+						</div>
+						<div class="second-col">
+							<p class="date-archive">2016.01.01</p>
+							<h4 id="item-title">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</h4>
+							<p id="item-sub">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+						</div>
+					</div>
+				</a>
+
+			</div>
+			<div id="items-left2">
+				 <a href="Landing.html" id="more-button">
+
+						<img src="images/text-more.png">
+						<img src="images/arrow-right.png" id="arrow-button">
+
+					 </a>
+			</div>
+		</div>
+
+		
+
+		<div class="items-right">
+			<a href="Landing.html" id="dummy">
+				<div class="Dummy_banner">
+					<p>Dummy banner</p>
+				</div>
+			</a>
+			<div class="recommend">
+				<img src="images/title-news.png">
+				<div id="item-widget">
+					<a href="Landing.html" id="listwidget">
+						<div id="imagetext">
+							<img src="images/item-image1.jpg">
+							<p id="widget-contents">サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+							<p class="date-archive">
+								2016.03.26
+							</p>
+						</div>
+					</a>
+				</div>
+
+					<a href="Landing.html">
+						<div class="base-banners">
+							<p>Dummy banners</p>
+						</div>
+					</a>
+					<a href="Landing.html">
+						<div class="base-banners">
+							<p>Dummy banners</p>
+						</div>
+					</a>
+					<a href="Landing.html">
+						<div class="base-banners">
+							<p>Dummy banners</p>
+						</div>
+					</a>
+
+			</div>
+		</div>
+	</div>
+
+
+<!-- all contents -->
+<script type="text/javascript" src="js/myJava.js"></script>
+<!-- end of all contents -->
+
+
+<!-- footer -->
+<div class="footer">
+
+	<div id="footer-container">
+			<div id="backTop">
+				<a href="#top">
+				<img src="images/arrow-up.png"></div>
+				</a>
+		<p>
+			<a href="Landing.html" id="dummy-link">
+				<span style="margin-right: 16px;">運営会社</span>
+				<span>個人情報保護について</span>
+			</a>
+				<span style="float:right;color:#fff;font-family: 'Helvetica';font-size: 14px;">©2016 Sample</span>
+			
+		</p>
+	</div>
+
+	
+		
+	</div>
+</div>
+</body>
+</html>
